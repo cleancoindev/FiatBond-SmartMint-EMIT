@@ -1,0 +1,20 @@
+{
+  "author": "DrZedd",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "oz compile && jest test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "@openzeppelin/contracts-ethereum-package": "^2.4.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.7.1",
+    "@openzeppelin/test-environment": "^0.1.2",
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "@truffle/hdwallet-provider": "^1.0.31",
+    "jest": "^25.1.0"
+  }
+}

@@ -1,0 +1,40 @@
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/.openzeppelin
+/.env
+/secrets.json
+
+# dev
+build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+
+# front-end client
+client/.next
+client/build
+client/out
+
+# .thegraph
+.thegraph/build
+.thegraph/generated
+.thegraph/subgraph.yaml
+.thegraph/subgraph.rinkeby.yaml
+.thegraph/subgraph.mainnet.yaml

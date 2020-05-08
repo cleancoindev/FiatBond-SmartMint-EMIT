@@ -1,0 +1,66 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@openzeppelin/solidity-loader": "^1.5.1",
+    "@rimble/network-indicator": "^1.2.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "eslint-plugin-react-hooks": "^2.4.0",
+    "ethers": "^4.0.45",
+    "json-loader": "^0.5.7",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "next": "^9.2.2",
+    "next-images": "^1.3.1",
+    "next-redux-wrapper": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-device-detect": "^1.11.14",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.0",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "replace": "^1.1.5",
+    "rimble-ui": "^0.11.1",
+    "styled-components": "^5.0.1",
+    "web3": "^1.2.6"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "NODE_ENV=production rm -rf .next && rm -rf out && yarn build && yarn export && yarn replace '/_next/' '_next/' out -r && arweave deploy-dir out"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.10.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2"
+  }
+}

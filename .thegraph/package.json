@@ -20,6 +20,7 @@
     "mustache": "^4.0.1",
     "truffle": "^5.0.4",
     "truffle-contract": "^4.0.5",
+    "diff": "^3.5.0",
     "truffle-hdwallet-provider": "^1.0.4"
   }
 }

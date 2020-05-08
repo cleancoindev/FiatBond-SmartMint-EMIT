@@ -1,4 +1,5 @@
 # SmartMint-BondBill ERC-721 token lending platform
+This creates Bonds with your Fiat Collateral!
 
 ## 💡 SmartMint-BondBills-Collateralized Description 💡
 SmartMint-BondBills-Collateralized is Ethereum Smart Contract that allows lending ERC-721 Smart Contracts (NFT)

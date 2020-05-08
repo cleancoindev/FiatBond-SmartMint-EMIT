@@ -4,7 +4,7 @@ This creates Bonds with your Fiat Collateral!
 ## 💡 FiatBond-SmartMint Description 💡
 FiatBond-SmartMint is Ethereum Smart Contract that allows lending ERC-721 Smart Contracts (NFT)
 and gain interest from it. On the other hand it allows to borrow same NFT's that are
-set for lending by paying collateral to LEND721 which handles the lend process.
+set for lending by paying collateral to SmartMint Factory Pool which handles the lend and repayment process.
 
 Current stage: **alpha**.
 
